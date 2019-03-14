@@ -26,7 +26,7 @@ public class LoginController {
 	private TextField benutzerTf, passwortTf;
 
 	@FXML
-	public void closeWindow() {
+	public void closeWindow(ActionEvent event) {
 		System.exit(0);
 	}
 
