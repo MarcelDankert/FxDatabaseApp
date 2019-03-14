@@ -39,7 +39,7 @@ public class LoginController {
 	@FXML
 	public void login(ActionEvent event) throws Exception {
 		System.out.println("Login gedrückt");
-		Parent root = FXMLLoader.load(getClass().getResource("../FXML_Files/MainView.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("../FXML_Files/MusicPlayerView.fxml"));
         Scene scene = new Scene(root);
         scene.setFill(Color.TRANSPARENT);
 		scene.getStylesheets().add(getClass().getResource("../css/application.css").toExternalForm());
