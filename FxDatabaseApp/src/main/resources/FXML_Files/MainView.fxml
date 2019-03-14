@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to right, #ACD1FC , #789AC0, #ACD1FC);  -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <VBox prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+      				<Label alignment="CENTER" contentDisplay="CENTER" prefHeight="101.0" prefWidth="600.0" text="Meine erste Datenbank-App mit FX">
+      					<font>
+      						<Font name="System Bold Italic" size="24.0" />
+      					</font>
+      				</Label>
+                  <Button fx:id="closeBtn" mnemonicParsing="false" onAction="#closeWindow" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: transparent;" text="X">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="620.0" prefWidth="800.0">
+               <children>
+                  <VBox prefHeight="560.0" prefWidth="250.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
