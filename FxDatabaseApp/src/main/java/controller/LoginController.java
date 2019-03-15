@@ -41,12 +41,14 @@ public class LoginController {
 		System.out.println("Login gedrückt");
 		Parent root = FXMLLoader.load(getClass().getResource("../FXML_Files/MusicPlayerView.fxml"));
         Scene scene = new Scene(root);
-        scene.setFill(Color.TRANSPARENT);
-		scene.getStylesheets().add(getClass().getResource("../css/application.css").toExternalForm());
+        
+        scene.getStylesheets().add(getClass().getResource("../css/application.css").toExternalForm());
+		scene.setFill(Color.TRANSPARENT);
         
 		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		
 		stage.setScene(scene);
-        stage.initStyle(StageStyle.TRANSPARENT);
+       
         stage.show();
 	}
 
