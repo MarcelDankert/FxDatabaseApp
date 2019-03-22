@@ -22,22 +22,22 @@
 			<bottom>
 				<HBox alignment="CENTER" prefHeight="36.0" prefWidth="600.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="openBtn" mnemonicParsing="false" onAction="#openDbView" prefHeight="34.0" prefWidth="108.0" style="-fx-background-radius: 50;" text="Öffnen">
+                  <Button fx:id="openBtn" mnemonicParsing="false" onAction="#openDbView" prefHeight="34.0" prefWidth="108.0" text="Öffnen">
                      <HBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="playBtn" mnemonicParsing="false" onAction="#playMusic" prefHeight="34.0" prefWidth="108.0" style="-fx-background-radius: 50;" text="Play">
+                  <Button fx:id="playBtn" mnemonicParsing="false" onAction="#playMusic" prefHeight="34.0" prefWidth="108.0" text="Play">
                      <HBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="pauseBtn" mnemonicParsing="false" onAction="#pauseMusic" prefHeight="34.0" prefWidth="108.0" style="-fx-background-radius: 50;" text="Pause">
+                  <Button fx:id="pauseBtn" mnemonicParsing="false" onAction="#pauseMusic" prefHeight="34.0" prefWidth="108.0" text="Pause">
                      <HBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </HBox.margin>
                   </Button>
-                  <Button fx:id="quitBtn" mnemonicParsing="false" onAction="#quitPlayer" prefHeight="34.0" prefWidth="108.0" style="-fx-background-radius: 50;" text="Beenden">
+                  <Button fx:id="quitBtn" mnemonicParsing="false" onAction="#quitPlayer" prefHeight="34.0" prefWidth="108.0" text="Beenden">
                      <HBox.margin>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                      </HBox.margin>
