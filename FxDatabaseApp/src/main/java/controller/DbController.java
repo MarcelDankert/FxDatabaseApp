@@ -19,7 +19,11 @@ public class DbController {
 		System.exit(0);
 	}
 
-	@FXML public void reset(ActionEvent event) {}
+	@FXML public void reset(ActionEvent event) {
+		
+	}
 
-	@FXML public void login(ActionEvent event) {}
+	@FXML public void login(ActionEvent event) {
+		
+	}
 }
